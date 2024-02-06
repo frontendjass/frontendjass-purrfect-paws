@@ -6,6 +6,7 @@ import Services from "./components/Services";
 import WhyChooseUs from "./components/WhyChooseUs";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import Hero from "./components/Hero";
 
 export default function App() {
     const lenis = useLenis(({ scroll }) => {
@@ -15,6 +16,7 @@ export default function App() {
       return (
         <ReactLenis root>
             <Header />
+            <Hero />
             <Services />
             <WhyChooseUs />
             <Contact />
