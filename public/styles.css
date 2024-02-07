@@ -9,9 +9,10 @@
 }
 
 body {
-  max-width: 1200px;
+  /* max-width: 1200px; */
   min-width: 320px;
   margin: 0 auto;
+  background-color: #edf7fe;
 }
 
 /* Header */
@@ -97,4 +98,58 @@ body {
 /* Services */
 #services {
   margin-top: -3rem;
+  padding: 0 1rem;
+
+}
+.services-title {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 500;
+}
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service {
+  margin: 1rem 0;
+}
+.service-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 0.3rem;
+  color: #1B262C;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 500;
+}
+.service-details {
+  
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #1b262c38;
+  background-color: #f7fcff;
+  min-width: 300px;
+  min-height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-details ul {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.service-details ul li {
+  list-style: none;
+  text-align: center;
+}
+.layer2 {
+  background-image: url('./assets/images/wave-haikei2.svg');
+}
+/* Why Choose Us */
+#why-choose-us {
+  background-color: #BBE1FA;
+  padding: 0 1rem;
 }
