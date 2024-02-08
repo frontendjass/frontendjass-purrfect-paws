@@ -9,7 +9,7 @@ export default function Header() {
       <nav className="navbar">
         <span className="logo">Purrfect Paws 🐾</span>
         <ul className="nav-menu">
-          <li><a href="about">About</a></li>
+          <li><a href="#services">Packages</a></li>
           <li><a className="call-us" href="call-us">Call Us!</a></li>
         </ul>
       </nav>

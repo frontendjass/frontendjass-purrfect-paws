@@ -7,6 +7,7 @@ import WhyChooseUs from "./components/WhyChooseUs";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
+import Reviews from "./components/Reviews";
 
 export default function App() {
     const lenis = useLenis(({ scroll }) => {
@@ -19,6 +20,7 @@ export default function App() {
             <Hero />
             <Services />
             <WhyChooseUs />
+            <Reviews />
             <Contact />
             <Footer />
         </ReactLenis>

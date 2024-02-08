@@ -2,10 +2,11 @@ import React from "react";
 
 export default function WhyChooseUs() {
     return (
+        <div>
         <section id="why-choose-us" className="why-choose-us-section">
             <div className="why-choose-us-container">
                 <header>
-                    <h2 className="why-choose-us-title">Why Choose Purrfect Paws?</h2>
+                    <h2 className="why-choose-us-title titles-h2">Why Choose Purrfect Paws?</h2>
                 </header>
                 <div className="point-container">
                     <p className="point"><strong>Expert Groomers</strong>: Our team of <em>experienced</em> and <em>certified groomers</em> is passionate about pets and dedicated to their well-being.</p>
@@ -15,5 +16,7 @@ export default function WhyChooseUs() {
                 </div>
             </div>
         </section>
+        <div className="spacer layer1"></div>
+        </div>
     );
 }

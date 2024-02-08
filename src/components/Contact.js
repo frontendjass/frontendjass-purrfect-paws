@@ -5,7 +5,7 @@ export default function Contact() {
         <section id="contact">
       <div>
         <article>
-          <h2>Schedule Your Appointment Today!</h2>
+          <h2 className="titles-h2">Schedule Your Appointment Today!</h2>
           <p>Give your pets the love and care they deserve.</p>
           <address>
             <p>
@@ -16,6 +16,7 @@ export default function Contact() {
               <strong>Location:</strong> 1234 Pet Paradise Lane, Cityville, State, Zip
             </p>
           </address>
+          <img className="cat" src='/assets/images/pexels-anna-shvets-4588069-PhotoRoom.png' alt="A cat having a massage."/>
         </article>
       </div>
 
