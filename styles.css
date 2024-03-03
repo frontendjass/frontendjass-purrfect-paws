@@ -1,0 +1,183 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* max-width: 1200px; */
+  min-width: 320px;
+  margin: 0 auto;
+  background-color: #edf7fe;
+}
+/* titles, subtitles */
+.titles-h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 500;
+  color: #1B262C;
+}
+/* Header */
+.logo {
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #1B262C;
+}
+.navbar {
+  /* border: 1px solid; */
+  padding: 0 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+.nav-menu {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.nav-menu > li {
+  list-style: none;
+}
+.nav-menu li a {
+  text-decoration: none;
+  color: #3282B8;
+}
+.call-us {
+  font-size: 1.3rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 15px;
+  background-color: #BDF1F6;
+  /* border: 2px dashed #4ac619; */
+  color: #3282B8 !important;
+  font-family: "Fredoka", sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+/* Hero */
+#hero {
+  background-color: #BBE1FA;
+  padding: 0 1rem;
+}
+.site-title {
+  padding-top: 1rem;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Fredoka", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  color: #1B262C;
+}
+.subtitle {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #1B262C;
+}
+.hero-text {
+  text-align: center;
+}
+.pet-image-container {
+  display: flex;
+  justify-content: center;
+}
+.pet-image {
+  padding: 1rem;
+  max-width: 200px;
+  height: auto;
+}
+
+.spacer {
+  aspect-ratio: 900/200;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.layer1 {
+  background-image: url('./assets/images/wave-haikei.svg');
+}
+
+/* Services */
+#services {
+  margin-top: -2.5rem;
+  padding: 0 1rem;
+
+}
+
+.services-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.service {
+  margin: 1rem 0;
+}
+.service-title {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 0.3rem;
+  color: #1B262C;
+  font-family: "Fredoka", sans-serif;
+  font-weight: 500;
+}
+.service-details {
+  
+  border-radius: 10px;
+  box-shadow: 0 4px 8px #1b262c38;
+  background-color: #f7fcff;
+  min-width: 300px;
+  min-height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.service-details ul {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+.service-details ul li {
+  list-style: none;
+  text-align: center;
+}
+.layer2 {
+  background-image: url('./assets/images/wave-haikei2.svg');
+}
+/* Why Choose Us */
+#why-choose-us {
+  background-color: #BBE1FA;
+  padding: 0 1rem;
+
+}
+.point-container {
+  margin-top: 1rem;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* Contact */
+address {
+  border: 1px solid;
+  width: 300px;
+  height: 150px;
+  background-color: #FFFFCC;
+}
+.cat {
+  max-width: 200px;
+  height: auto;
+}
